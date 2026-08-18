@@ -1,0 +1,208 @@
+\documentclass{article}
+\usepackage{geometry}[left=1cm,right=1cm]
+\usepackage{eso-pic,graphicx} % Required for inserting images
+\usepackage{attachfile}
+
+\title{A somewhat in-depth analysis of Spellscrolls in Dnd5.5 in Return to Farlorret}
+\date{\today}
+
+\AddToShipoutPictureBG{\includegraphics[width=\paperwidth,height=\paperheight]{../Y7.png}}
+
+
+\begin{document}
+    \maketitle
+
+    \section*{Downtime Activity: Scribing a Spell Scroll}
+    XGE 
+    p133 
+    Variant Optional Rule
+
+    With time and patience, a spellcaster can transfer a spell to a scroll, creating a spell scroll.
+
+
+
+    \subsection*{Resources}
+
+    Scribing a spell scroll takes an amount of time and money related to the level of the spell the character wants to scribe, as shown in the Spell Scroll Costs table. In addition, the character must have proficiency in the Arcana skill and must provide any material components required for the casting of the spell. Moreover, the character must have the spell prepared, or it must be among the character's known spells, in order to scribe a scroll of that spell.
+
+    If the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st level.
+
+    \large \textit{Spell Scroll Costs} \normalsize
+
+    \begin{tabular}{|clr|}
+        \hline
+        Spell Level	&Time	&Cost\\
+        \hline
+        Cantrip	&1 day	&15 gp\\
+        \hline
+        1st	&1 day	&25 gp\\
+        \hline
+        2nd	&3 days	&250 gp\\
+        \hline
+        3rd	&1 workweek	&500 gp\\
+        \hline
+        4th	&2 workweeks	&2,500 gp\\
+        \hline
+        5th	&4 workweeks	&5,000 gp\\
+        \hline
+        6th	&8 workweeks	&15,000 gp\\
+        \hline
+        7th	&16 workweeks	&25,000 gp\\
+        \hline
+        8th	&32 workweeks	&50,000 gp\\
+        \hline
+        9th	&48 workweeks	&250,000 gp\\
+        \hline
+    \end{tabular}
+
+    \subsection*{Complications}
+
+    Crafting a spell scroll is a solitary task, unlikely to attract much attention. The complications that arise are more likely to involve the preparation needed for the activity. Every workweek spent scribing brings a 10 percent chance of a complication, examples of which are on the Scribe a Scroll Complications table.
+    
+    \large \textit{Scribe a Scroll Complications} \normalsize
+
+
+    \begin{tabular}{|cl|}
+        \hline
+        d6&	Complication\\
+        \hline
+        1&	You bought up the last of the rare ink used to craft scrolls, angering a wizard in town.\\
+        \hline
+        2&	The priest of a temple of good accuses you of trafficking in dark magic.*\\
+        \hline
+        3&	A wizard eager to collect one of your spells in a book presses you to sell the scroll.\\
+        \hline
+        4&	Due to a strange error in creating the scroll, it is instead a random spell of the same level.\\
+        \hline
+        5&	The rare parchment you bought for your scroll has a barely visible map on it.\\
+        \hline
+        6&	A thief attempts to break into your workroom.*\\
+        \hline
+    \end{tabular}
+    *Might involve a rival
+
+    \section*{Passive downtime activities: Crafting}
+    RTF Wiki 
+    Downtime\_Activities\#Crafting
+
+    You may \textbf{only} have one passive downtime activity at a time
+
+    \subsection*{Crafting}
+
+    Embergate has no flowing traderoutes of magical items instead, adventurers gain theirs through crafting or commissions from NPC craftsmen. When you wish to have an item crafted you do as follows: 
+
+    \begin{itemize}
+        \item You check so the item is craftable on the magic item list right HERE.
+        \item The time it takes to craft an item is measured in irl days and is based on the cost of the item: 
+        \begin{itemize}
+            \item   less than 50g = 0day
+            \item   50g+ = 1 days
+            \item   150g+ = 3 days
+            \item   300g+ = 5 days
+            \item   400g+ = 7 days
+            \item   800g+ = 9 days
+            \item   1200g+ = 11 days
+            \item   1600g+ = 13 days
+            \item   2000g+ = 15 days
+            \item   2500g+ = 17 days
+            \item   3000g+ = 19 days
+            \item   3500g+ = 21 days
+            \item   4000+ = 23 days
+            \item   8000+ = 25 days
+            \item   12000g+ = 27 days
+            \item   16000g+ = 29 days
+            \item   20000g+ = 31 days
+        \end{itemize}
+        \item You pay the items full cost up front (75\% if you have either arcana proficiency or proficiency in the relevant tool, 50\% if you have both)
+        \item You then write a message detailing the items name, It's cost and the time it will take before finished. EX. "Olga starts crafting a +1 dagger pays 200 gold (because she has both smiths tools and arcana proficiency) to start crafting, it will be finished in 1 week (0/1)
+        \item when you finish you tag your original post and type "finished"
+        \item All mundane items are purchaseable, but if you wish to craft a mundane item, it is crafted at 75\% price. When doing so you need proficiency in one relevant tool. Crafting times remain the same.
+    \end{itemize}
+
+    \section*{Analysis of Spell Data}
+
+    Through some quick automated analysis of the available spells on https://5e.tools.    
+
+    The number of spells which have additional costs associated are 73. Of those 32 have consumable parts \& 41 use non-consumable components. 
+
+    These lists can be found in the Appendix.
+
+    \subsection*{Pricing}
+
+    The pricing ought to be split up in two. One for the spellscroll, \& ink it takes to transcribe the spell. Which is outlined in  the table from XGE. 
+
+    On top of that the cost any material components are needed to be supplied. How these items are supplied is a larger question. If the item is purchasable then it can simply be done so. If it is craftable it should be able to be crafted at 75\% of the cost listed on the scroll. The crafting of the scroll itself still considers the material to be worth 100\% of the cost.
+
+    These costs are then totalled up and that amount of gold is invested.
+
+    \subsection*{Timing}
+
+    After a price is found. The question of how long it will take is to be considered. 
+
+    Current rules stated (Through word of mouth) is the original rules from XGE apply and time only passes while travelling on adventures. 
+
+    Trying to implement the Passive downtime activity rules works in one of a few ways.
+
+    \subsubsection*{Just scrolls}
+
+    The time to craft a scroll would flatly be decided by the XGE tables gold value through the Passive downtime activity rules. 
+
+    \textbf{For example. Any 1st level spell would cost 25gp \& therefore take less than a full day. Any 2nd level spell would cost 250gp \& therefore take 3 days}
+    
+    Then these costs could be reduced down to 50\% with the right proficiencies.
+    
+    \textbf{For example. Any 1st level spell would now cost 12,5gp \& therefore take less than a full day. Any 2nd level spell would now cost 125gp \& therefore take 1 day}
+
+
+    \subsubsection*{Scrolls \& Consumables}
+
+    The time to craft a scroll is decided on a base decided by the XGE tables gold value plus the full price of the materials through the Passive downtime activity rules. 
+
+    Any non consumed material component with an associated cost would be ignored for pricing but still need to be available when crafting.
+
+    \textbf{For example. The 1st level spell "Find familiar" would cost 25gp + 10gp from the materials \& therefore still take less than a full day. The 3rd level spell "Revivify" would cost 500gp + 300gp from the materials \& therefore increase from 7 days to 9 days compared to Just scrolls}
+    
+    Then if these total costs could be reduced down to 50\% with the right proficiencies.
+    
+    \textbf{For example. The 1st level spell "Find familiar" would cost 12,5gp + 5gp from the materials \& therefore still take less than a full day. The 3rd level spell "Revivify" would now cost 250gp + 150gp from the materials \& therefore decreases down to 7 days again}
+    
+    Otherwise, Just the base scroll could be reduced down to 50\% with the right proficiencies.
+
+    \textbf{For example. The 1st level spell "Find familiar" would cost 12,5gp + 10gp from the materials \& therefore still take less than a full day. The 3rd level spell "Revivify" would now cost 250gp + 300gp from the materials \& therefore stay at 7 days.}
+
+
+    \subsection*{Scrolls, Consumables \& Non-consumables}
+
+    The time to craft a scroll is decided on a base decided by the XGE tables gold value plus the full price of the materials through the Passive downtime activity rules. 
+
+    Any non consumed material component with an associated cost would be included for pricing but still need to be available when crafting.
+
+    \textbf{For example. The 1st level spell "Identify" would cost 25gp + 100gp from the materials \& therefore take 1 day instead of less than a day. The 4th level spell "Summon Aberration" would cost 2,500 gp + 400gp from materials \& therefore take 17 days. Compared to Either option}
+
+    Then if these total costs could be reduced down to 50\% with the right proficiencies.
+
+    \textbf{For example. The 1st level spell "Identify" would cost 12,5gp + 50gp from the materials \& therefore still take 1 day. The 4th level spell "Summon Aberration" would cost 1,250 gp + 200gp from materials \& therefore be reduced to 11 days.}
+    
+    Otherwise, Just the base scroll could be reduced down to 50\% with the right proficiencies.
+    
+    \textbf{For example. The 1st level spell "Identify" would cost 12,5gp + 100gp from the materials \& therefore still take 1 day. The 4th level spell "Summon Aberration" would cost 1,250 gp + 400gp from materials \& therefore be reduced to 13 days.}
+    
+    \newpage
+    \section*{Appendix}
+
+    Spells.csv
+    \attachfile{Spells.csv}
+
+    CostingSpellTable.xlsx
+    \attachfile{CostingSpellTable.xlsx}
+    
+    ConsumableCostingSpellTable.xlsx
+    \attachfile{ConsumableCostingSpellTable.xlsx}
+    
+    NonConsumableCostingSpellTable.xlsx
+    \attachfile{NonConsumableCostingSpellTable.xlsx}
+
+    RulesApplicationExample.xlsx
+    \attachfile{RulesApplicationExample.xlsx}
+    
+    \end{document}
