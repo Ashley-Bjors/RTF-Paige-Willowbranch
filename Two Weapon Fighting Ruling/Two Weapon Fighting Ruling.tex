@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{tabularx}
+\newcolumntype{b}{X}
+\newcolumntype{s}{>{\hsize=.4\hsize}X}
+\title{Return to Farlorret's ruling on the interaction between the Fighting style feat: Two-weapon fighting \& the General feat: Dual wielder}
+\date{\today}
+
+
+
+\begin{document}
+    \maketitle
+
+    \section*{Background}
+
+    \textbf{Two-Weapon Fighting}\\
+    Fighting Style Feat (Prerequisite: Fighting Style Feature)
+
+    When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren’t already adding it to the damage.\\
+    \textbf{Dual Wielder}\\
+    General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)
+
+    You gain the following benefits.
+    
+    \textbf{Ability Score Increase.} Increase your Strength or Dexterity score by 1, to a maximum of 20.
+    
+    \textbf{Enhanced Dual Wielding.} When you take the Attack action on your turn and attack with a weapon that has the Light property, you can make one extra attack as a Bonus Action later on the same turn with a different weapon, which must be a Melee weapon that lacks the Two-Handed property. You don’t add your ability modifier to the extra attack’s damage unless that modifier is negative.
+    
+    \textbf{Quick Draw.} You can draw or stow two weapons that lack the Two-Handed property when you would normally be able to draw or stow only one.\\
+    \textbf{Nick}
+
+    When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.\\
+    \textbf{Light}
+
+    When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don’t add your ability modifier to the extra attack’s damage unless that modifier is negative. For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don’t add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.
+    \section*{Ruling}
+
+    The added ability modifier from Two-Weapon Fighting is only applicable on attacks made due to the interaction stated in the light property.
+
+    This excludes the case where the Dual Wielder feat allows for an extra attack to be made as a bonus action from benefitting from Two-Weapon Fighting.
+
+    Additionally, any possible interactions where this Fighting style could be interpreted to apply outside of the light property due to combinations of weapons, properties or features does not.
+    \section*{Examples}
+    \begin{table}[h]
+        \begin{tabularx}{\textwidth}{|sss|bb|}
+            \hline
+            Nick & Two-Weapon Fighting & Dual Wielder & Action & Bonus Action\\\hline
+            No&No&No&One attack with a Light weapon with Damage modifier& One attack with a different Light weapon without Damage modifier\\\hline
+            Yes&No&No&Two attacks with two different Light weapons only one with Damage modifier.&\\\hline
+            No&Yes&No&One attack with a Light weapon with Damage modifier& One attack with a different Light weapon with Damage modifier\\\hline
+            No&No&Yes&One attack with a Light weapon with Damage modifier& One attack with a different Light weapon without Damage modifier\\\hline
+            Yes&Yes&No&Two attacks with two different Light weapons Both with Damage modifier.&\\\hline
+            Yes&No&Yes&Two attacks with two different Light weapons only one with Damage modifier.&One attack with a different Light weapon without Damage modifier\\\hline
+            No&Yes&Yes&One attack with a Light weapon with Damage modifier& One attack with a different Light weapon with Damage modifier\\\hline
+            Yes&Yes&Yes&Two attacks with two different Light weapons Both with Damage modifier.&One attack with a different Light weapon without Damage modifier\\\hline
+            
+        \end{tabularx}
+    \end{table}
+    \end{document}
