@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QShe has an unexpecting pout-like snear behind her thinly brimmed round glasses, almost like she has stopped believing you'll ever say something worth her attention\\E$"}
