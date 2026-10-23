@@ -1,1 +1,2 @@
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QShe has an unexpecting pout-like snear behind her thinly brimmed round glasses, almost like she has stopped believing you'll ever say something worth her attention\\E$"}
+{"rule":"APARTMENT-FLAT","sentence":"^\\QI left the apartment and found myself wandering Embergate, my magicks kicking in by themselves shrouding me in shadow.\\E$"}
